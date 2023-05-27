@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- box-icon style sheet -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-Icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <!-- Home section  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Krishna sai</h1>
+            <h3>And I'm a <span class="auto-input"></span></h3>
+            <p id="sub-head">Looking for Web Development Internship</p>
+            <p>I am actively seeking an internship opportunity to further enhance my skills and gain real-world experience in the field. I am eager to contribute my knowledge of HTML, CSS, JavaScript, and related technologies to develop innovative and user-friendly websites.</p>
+            <div class="social-media">
+                <a href="https://github.com/krishnasainakka"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/krishna-sai-nakka-1b3538237/"><i class='bx bxl-linkedin'></i></i></a>
+                <a href="https://twitter.com/home"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <a href="Resume.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="">
+        </div>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-input", {
+                strings: ["Frontend Developer", "Coder","AI Enthusiast"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true
+            })
+        </script>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile.jpg" alt="">
+        </div>
+        
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>Hello, My name is Krishna sai and this is my personal website.I am currently pursuing computer science and engineering at National Institute of Technology Andhra Pradesh.I enjoy the problem solving and developed a good skills in coding.Apart from that I'm self motivated and dedicated towards my work.</p>
+            <div class="personal-info">
+                <p><span>Age: </span> 20</p>
+                <p><span>Residence: </span> Hyderabad</p>
+                <p><span>Email: </span> krishnasainakka@gmail.com</p>
+                <p><span>Phone: </span> +91 8328128544</p>
+                <p><span>Hobbies: </span> Drawing, Travelling, Watching Movies.</p>
+            </div>
+            <a  class="btn" id="education-btn">Education</a>
+        </div>
+        
+        <div class="education-container" id="education">
+            <div class="edu-headers">
+                <span><a class="btn" id="go-about">Go Back</a></span>
+                <span><h2 class="heading" id="edu-header">Education</h2></span>
+            </div>
+            
+            <div class="education-box">
+                <h4>2021-present</h4>
+                <h3>B.Tech in Computer Science and Engineering</h3>
+                <h4 class="edu-location">National Institute of Technology Andhra Pradesh</h4>
+                <p>During my academic journey, I acquired a strong foundation in computer science and engineering principles. The coursework covered a wide range of subjects, including algorithms, data structures, software development, and system design. Additionally, I had the opportunity to work on several projects that enhanced my practical skills and problem-solving abilities.</p>
+                <p>CGPA: 7.95/10</p>
+            </div>
+            <div class="education-box">
+                <h4>2019-2021</h4>
+                <h3 >Intermediate</h3>
+                <h4 class="edu-location">Sri Chaitanya Jr. College - Hyderabad</h4>
+                <p>I dedicated two years to intense studying, temporarily stepping away from social interactions and cheerful activities. This sacrifice paid off when I achieved remarkable results in the JEE, reflecting my unwavering commitment and determination to succeed.</p>
+                <p>JEE Percentile: 97.66</p>
+            </div>            
+        </div>
+
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skill-icon"><img src="images/python.png" alt="python" class="" id="python"><h4>Python</h4></div>
+                <div class="skill-icon"><img src="images/c.png" alt="C" class="" id="c"><h4>C</h4></div>
+                <div class="skill-icon"><img src="images/java.png" alt="java" class="" id="java"><h4>Java</h4></div>
+                <hr>
+                <h2 class="skill-group">Programming Languages</h2>
+            </div>
+            <div class="skills-box">                
+                <div class="skill-icon"><img src="images/html.png" alt="HTML" class="" id="html"><h4>HTML</h4></div>
+                <div class="skill-icon"><img src="images/css.png" alt="CSS" class="" id="css"><h4>CSS</h4></div>
+                <div class="skill-icon"><img src="images/javascript.png" alt="JavaScript" class="" id="javascript"><h4>JavaScript</h4></div>
+                <div class="skill-icon"><img src="images/nodejs.png" alt="NodeJs" class="" id="NodeJs"><h4>NodeJS</h4></div>
+                <div class="skill-icon"><img src="images/expressjs.png" alt="ExpressJs" class="" id="ExpressJs"><h4>ExpressJS</h4></div>
+                <hr>
+                <h2 class="skill-group">Web Development</h2>
+            </div>
+            <div class="skills-box">
+                <div class="skill-icon"><img src="images/mysql.png" alt="MySQL" class="" id="MySQL"><h4>MYSQL</h4></div>
+                <div class="skill-icon"><img src="images/mongodb.png" alt="MongoDB" class="" id="MongoDB"><h4>MongoDB</h4></div>                
+                <hr>
+                <h2 class="skill-group">DataBase Management</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="images/blockchain-news.jpg" alt="">
+                <div class="projects-layer">
+                    <h4>Decentralized News Article Publisher</h4>
+                    <p>This is a decentralized web application for publishing newsarticles.It is developed using IPFS database and Web technologies. </p>
+                    <div class="icons">
+                        <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                        <a href="https://github.com/krishnasainakka/Mini-Project"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="project-name">Music Player Web-App</div> -->
+            <div class="projects-box">
+                <img src="images/music.png" alt="">
+                <div class="projects-layer">
+                    <h4>Spotify Clone</h4>
+                    <p>This is a simple music web-app built using HTML, CSS and JavaScript</p>
+                    <div class="icons">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/krishnasainakka/Spotify-Clone"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/snake.png" alt="">
+                <div class="projects-layer">
+                    <h4>Snake Game</h4>
+                    <p>This is simple Snake game built using java.</p>
+                    <div class="icons">
+                        <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                        <a href="https://github.com/krishnasainakka/Java-Mini-Games"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="projects-box">
+                <img src="images/3.jpg" alt="">
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure nostrum quia nisi at, laudantium sit id tenetur recusandae doloribus assumenda hic voluptas, repellat, illum in dolores voluptate modi dolorum temporibus!</p>
+                    <div class="icons">
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Experience section -->
+    <section class="experience" id="experience">
+        <h2 class="heading">Experience</h2>
+        <h1>Will be adding Later ...</h1>
+
+    </section>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name">
+                <input type="email" placeholder="Email Address" id="email">
+            </div>
+            <div class="input-box">
+                <!-- <input type="number" placeholder="Mobile Number"> -->
+                <input type="text" placeholder="Email Subject" id="subject">
+            </div>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn" onclick="sendMail()">
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by  | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- EmailJS -->
+    <script src="mail.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("Ul-64GFLyC_cXk3O9");
+        })();
+    </script>
+</body>
+</html>
